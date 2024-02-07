@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        header {
+            background-color: #ffffff;
+            padding: 30px;
+            text-align: center;
+            font-size: 150px;
+            color: white;
+        }
+        nav {
+            float: left;
+            width: 50%;
+            height: 100px;
+            background: #ffffff;
+            padding: 20px;
+        }
+        search{
+            float: left;
+            padding: 60px;
+            width: 70%;
+            background-color: #ffffff;
+            height: 300px; 
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="background-color:DodgerBlue;">Coastal Condition's Coasts</h1>
+    </header>
+    <section>
+        <nav>
+            <search>
+                <h1>Coasts</h1>
+                <p style="font-size:175%;">
+                    By using the table on the right you are able to see a list of many different states that are connected to a coast. In the United States there is a total of five coats that can be found. The coasts are East Coast, West Coast, Gulf Coast, Atic Coast, and the Great Lakes.
+                </p>
+                   <p style="font-size:175%;">
+                       Below this paragraph there is a search bar that will help find the nearest Coast's Weather.
+                </p>
+                    <h3>Search your<br>specific address<br>find your local coast</h3>
+                    <form action="/search" method="get">
+                        <input type="text" id="locInp" placeholder="Search for Coast">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                
+            </search>
+        </nav>
+        <table style="width:35%" class="table">
+            <thead>
+                <tr>
+                    <th>East Coast</th>
+                    <th>West Coast</th>
+                    <th>Gulf Coast</th>
+                    <th>Artic Coast</th>
+                    <th>Great Lakes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="info">
+                    <td>Connecticut </td>
+                    <td>Alaska</td>
+                    <td>Alabama</td>
+                    <td>Alaska</td>
+                    <td>Illinois</td>
+                </tr>
+                <tr class="info">
+                    <td>Delaware</td>
+                    <td>California</td>
+                    <td>Florida</td>
+                    <td class="danger">n/a</td>
+                    <td>Indiana</td>
+
+                </tr>
+                <tr class="info">
+                    <td>Georgia</td>
+                    <td>Hawaii</td>
+                    <td>Louisiana</td>
+                    <td class="danger">n/a</td>
+                    <td>Michigan</td>
+                </tr>
+                <tr class="info">
+                    <td>Florida</td>
+                    <td>Oregon</td>
+                    <td>Mississippi</td>
+                    <td class="danger">n/a</td>
+                    <td>Minnesota</td>
+                </tr>
+                <tr class="info">
+                    <td>Maine</td>
+                    <td>Washington</td>
+                    <td>Texas</td>
+                    <td class="danger">n/a</td>
+                    <td>New York</td>
+                </tr>
+                <tr class="info">
+                    <td>Maryland</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td>Ohio</td>
+                </tr>
+                <tr class="info">
+                    <td>Massachusetts</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td>Pennsylvania</td>
+                </tr>
+                <tr class="info">
+                    <td>New Hampshire</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td>Wisconsin</td>
+                </tr>
+                <tr class="info">
+                    <td>New Jersey</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                </tr>
+                <tr class="info">
+                    <td>New York</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                </tr>
+                <tr class="info">
+                    <td>North Carolina</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                </tr>
+                <tr class="info">
+                    <td>Rhode Island</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                </tr>
+                <tr class="info">
+                    <td>South Carolina</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                </tr>
+                <tr class="info">
+                    <td>Virginia</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                    <td class="danger">n/a</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </section>
+   
+</body>
+</html>
